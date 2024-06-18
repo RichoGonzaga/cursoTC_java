@@ -33,8 +33,7 @@ public class Examen {
             n = leer.nextInt();
             contador++;
         }while(n != -1);
-        System.out.println("El  número total de números ingresados es: " + contador);
-        System.out.println("nota: incluyendo al -1");
+        System.out.println("El  número total de números ingresados es: " + (contador - 1));
     }
     
 }
